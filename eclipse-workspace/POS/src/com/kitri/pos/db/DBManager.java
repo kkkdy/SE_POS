@@ -13,8 +13,8 @@ public class DBManager {
 	public static Connection getConnection() {
 		Connection conn = null;
 		try {
-			String user = "scott";
-			String pw = "pawi363636";
+			String user = "설정하신 USERNAME";
+			String pw = "설정하신 PW";
 			String url = "jdbc:oracle:thin:@localhost:1521:orcl";
 
 			Class.forName("oracle.jdbc.driver.OracleDriver");
